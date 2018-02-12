@@ -1,0 +1,42 @@
+f_k.py
+
+1. Params: object id,xmin,xcentroid,xmax,ymin,ycecntroid,ymax,z,area,adu,sigma
+2. read fits file(alpha x,y)
+3. arrange data in list
+4. interpolate alpha
+5. calculate cosmic_weight for sources
+6. calculate Df/Dlf
+7. calculate Dls/Ds
+8. make columns of alphax,alphay of image centroids
+9. def function to calc f_k
+10. calculate theoretical f_k
+
+Magnitude_Data.py
+
+1. write params
+2. def function for basic maths operations
+3. def scientific functions
+4. total error from wht and object flux
+5. Get an array of object's magnitude and magnitude error
+6. Functions to arrange the elements in appropriate form for plotting graph 1
+7. Construct the x and y axis for the plot 1
+8. Functions to align data in plot 2
+9. Construct the x and y axis for the plot 2
+10. Construct the x and y axis for the plot 3 (Daniel's plot)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
